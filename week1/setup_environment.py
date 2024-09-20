@@ -1,0 +1,1 @@
+import subprocess\nimport sys\n\ndef setup_environment():\n    subprocess.check_call([sys.executable, '-m', 'pip', 'install', '-r', 'requirements.txt'])\n\nif __name__ == '__main__':\n    setup_environment()
